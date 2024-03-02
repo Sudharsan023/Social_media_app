@@ -142,8 +142,13 @@ button{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .ppost{
-  border-bottom: 2px solid grey;
+  border-bottom: 1px solid grey;
   text-decoration:none;
+  width: 100%;
+}
+.ppost:hover,
+.ppost:focus{
+  background-color: lightgray;
 }
 img{
    width:30%;
